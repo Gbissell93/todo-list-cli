@@ -30,7 +30,7 @@ while(loop === true) {
         itemCount++
         const newItem = prompt("enter new item: ") //new item input
         console.log("") //empty string for space
-        todoList.push(`${todoList.length + 1}. [Incomplete] ${newItem}`)
+        todoList.push(`\n ${todoList.length + 1}. [Incomplete] ${newItem}`)
         }
 
 
@@ -60,7 +60,7 @@ while(loop === true) {
 
     }
 
-    if (option == 0) {
+    if (option == 0) { // loop exit
         loop = false
     }
 
